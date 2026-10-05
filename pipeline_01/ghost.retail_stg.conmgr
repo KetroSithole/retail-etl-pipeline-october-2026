@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ghost.retail_stg"
+  DTS:DTSID="{0E4BAEEB-3FFF-436B-A489-FCCCCA5C7255}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=ghost;Initial Catalog=retail_stg;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-pipeline_01-{0E4BAEEB-3FFF-436B-A489-FCCCCA5C7255}ghost.retail_stg;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

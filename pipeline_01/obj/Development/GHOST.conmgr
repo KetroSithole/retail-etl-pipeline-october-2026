@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="GHOST"
+  DTS:DTSID="{C841CABC-F371-48BD-AC9B-B1B2ADCAC0B6}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=GHOST;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-pipeline_01-{C841CABC-F371-48BD-AC9B-B1B2ADCAC0B6}GHOST;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
